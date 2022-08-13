@@ -1,0 +1,87 @@
+.header {
+    padding: 7px 0;
+}
+
+.page-blocks-alignment {
+    margin: 1% 2% 1% 2%;
+}
+
+.form-name, .form-list-menu, .item {
+    display: inline-block;
+}
+
+
+.form-name {
+    margin: 0 1rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-list-menu {
+    position: absolute;
+    margin: 5px auto;
+    right: 3%;
+}
+
+.product {
+    position: relative;
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+    background-color: beige;
+}
+
+.product-text-group {
+    width: 80%;
+    margin: 10% auto;
+}
+
+.product-info {
+    margin: auto;
+    text-align: center;
+}
+
+.product-label {
+    width: 8rem;
+}
+
+.product-input {
+    margin: 0.5rem;
+}
+
+.product-field {
+    display: grid;
+    justify-items: stretch;
+    justify-content: start;
+    align-items: baseline;
+    grid-template-columns: 7% 13%;
+    gap: 1rem;
+}
+
+.description-label {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.mass-delete-checkbox {
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
+
+.page-buttons {
+    margin: 0 0.3rem;
+}
+
+.footer-text {
+    margin: 2% auto;
+    text-align: center;
+}
+
+.inValid {
+    background: #FFC0CBFF;
+}
